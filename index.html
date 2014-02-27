@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.0.min.css" />
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script id="custom-init-js" src="js/custom-init-js.js"></script>
+	<script src="js/jquery.mobile-1.4.0.min.js"></script>
+		<!--  <link rel="stylesheet" href="../css/k5.css"/> -->
+	<script id="analytics" src="../js/analytics.js"></script>
+<title>Ejemplo sencillo de AJAX</title>
+  </head>
+  <body>
+  <div data-role="page" class="index-page">
+	<div data-role="panel" id="menu-panel" data-position="left" data-display="overlay" data-theme="b" data-swipe-close="false">
+		<ul data-role="listview">
+			<li data-icon="back"><a class="menu-item" href="#" data-rel="close">Menu Casa Bartolo</a></li>
+			<li data-icon="menu-right"><a class="menu-item" href="index.html">Casa Bartolo</a></li>
+			<li data-icon="menu-right"><a class="menu-item" href="txakolina.html">Pintxos</a></li>
+			<li data-icon="menu-right"><a class="menu-item" href="vinedo.html">Raciones</a></li>
+			<li data-icon="menu-right"><a class="menu-item" href="bodega.html">Postres</a></li>
+			<li data-icon="menu-right"><a class="menu-item" href="produccion.html">Contacto</a></li>
+			<li data-icon="menu-right"><a class="menu-item" href="produccion.html">Como llegar</a></li>
+			
+		</ul>
+	</div>
+	<div data-role="panel" id="lang-panel" data-position="right" data-display="overlay" data-theme="b" data-swipe-close="false">
+		<ul data-role="listview">
+			<li data-icon="forward"><a class="lang-item" href="#" data-rel="close">Idioma</a></li>
+			<li data-icon="lang-left"><a class="lang-item" href="../es/">Castellano</a></li>
+			<li data-icon="lang-left"><a class="lang-item" href="../eu/">Euskara</a></li>
+			<li data-icon="lang-left"><a class="lang-item" href="../en/">English</a></li>		
+		</ul>
+	</div>
+	
+	<div data-role="header" class="k5-header">
+		<a href="#menu-panel" class="ui-btn-left" style="background-color:#323232 !important;"><img class="k5-header-menu" src="../img/menu.png" alt="menu"/></a>
+		<center><h1 class="k5-header-title">Casa Bartolo Etxea</h1></center>
+		<a href="#lang-panel" class="ui-btn-right" style="background-color:#323232 !important;"><img class="k5-header-lang" src="../img/lang.png" alt="language"/></a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		
+	</div><!-- /content -->
+	<ul id="listadoPintxos" data-role="listview" data-inset="true">
+
+	</ul>
+</div><!-- /page -->
+  
+    <div data-role="page" id="detallepintxo" class="detalle-page">
+	<div data-role="panel" id="menu-panel" data-position="left" data-display="overlay" data-theme="b" data-swipe-close="false">
+		<ul data-role="listview">
+			<li data-icon="back"><a class="menu-item" href="#" data-rel="close">Menu Casa Bartolo</a></li>
+			<li data-icon="menu-right"><a class="menu-item" href="index.html">Casa Bartolo</a></li>
+			<li data-icon="menu-right"><a class="menu-item" href="txakolina.html">Pintxos</a></li>
+			<li data-icon="menu-right"><a class="menu-item" href="vinedo.html">Raciones</a></li>
+			<li data-icon="menu-right"><a class="menu-item" href="bodega.html">Postres</a></li>
+			<li data-icon="menu-right"><a class="menu-item" href="produccion.html">Contacto</a></li>
+			<li data-icon="menu-right"><a class="menu-item" href="produccion.html">Como llegar</a></li>
+			
+		</ul>
+	</div>
+	<div data-role="panel" id="lang-panel" data-position="right" data-display="overlay" data-theme="b" data-swipe-close="false">
+		<ul data-role="listview">
+			<li data-icon="forward"><a class="lang-item" href="#" data-rel="close">Idioma</a></li>
+			<li data-icon="lang-left"><a class="lang-item" href="../es/">Castellano</a></li>
+			<li data-icon="lang-left"><a class="lang-item" href="../eu/">Euskara</a></li>
+			<li data-icon="lang-left"><a class="lang-item" href="../en/">English</a></li>		
+		</ul>
+	</div>
+	
+	<div data-role="header" class="k5-header">
+		<a href="#menu-panel" class="ui-btn-left" style="background-color:#323232 !important;"><img class="k5-header-menu" src="../img/menu.png" alt="menu"/></a>
+		<center><h1 class="k5-header-title">Casa Bartolo Etxea</h1></center>
+		<a href="#lang-panel" class="ui-btn-right" style="background-color:#323232 !important;"><img class="k5-header-lang" src="../img/lang.png" alt="language"/></a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		
+	</div><!-- /content -->
+	<div id="image_principal_pintxo"></div>
+	<div id="title_pintxo"></div>
+	<div id="info_pintxo"></div>
+	
+</div><!-- /page -->
+  
+  
+  
+  
+  
+  
+<script>
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
